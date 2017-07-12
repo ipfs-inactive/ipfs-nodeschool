@@ -1,0 +1,41 @@
+{
+  "name": "interplanetary-adventure",
+  "version": "0.0.0",
+  "description": "The IPFS nodeschool workshopper",
+  "main": "src/index.js",
+  "bin": "src/cli.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "workshopper-adventure-test",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipfs/ipfs-nodeschool.git"
+  },
+  "keywords": [
+    "IPFS",
+    "nodeschool",
+    "interplanetary",
+    "p2p",
+    "distributed",
+    "web",
+    "content",
+    "addressing"
+  ],
+  "author": "David Dias <daviddias@ipfs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipfs/ipfs-nodeschool/issues"
+  },
+  "homepage": "https://github.com/ipfs/ipfs-nodeschool#readme",
+  "dependencies": {
+    "workshopper-adventure": "^6.0.2",
+    "workshopper-exercise": "^3.0.1",
+    "workshopper-wrappedexec": "^0.1.3"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "workshopper-adventure-test": "^1.1.2"
+  }
+}
